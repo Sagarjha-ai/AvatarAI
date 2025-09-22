@@ -47,15 +47,15 @@ const HowItWorks = () => {
             {steps.map((step, index) => (
               <div key={index} className="text-center group">
                 <div className="relative mb-6">
-                  <div className="w-20 h-20 mx-auto bg-gradient-secondary rounded-full flex items-center justify-center group-hover:bg-gradient-primary transition-all duration-300 shadow-card">
-                    <step.icon className="w-8 h-8 text-foreground" />
+                  <div className="w-20 h-20 mx-auto bg-white rounded-full flex items-center justify-center group-hover:bg-gradient-primary transition-all duration-300 shadow-xl border border-gray-100">
+                    <step.icon className="w-8 h-8 text-slate-700 group-hover:text-white transition-colors duration-300" />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold">
+                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-primary text-white rounded-full flex items-center justify-center text-sm font-bold shadow-lg">
                     {step.step}
                   </div>
                 </div>
                 
-                <h3 className="text-xl font-semibold mb-3 text-foreground">
+                <h3 className="text-xl font-semibold mb-3 text-slate-800">
                   {step.title}
                 </h3>
                 

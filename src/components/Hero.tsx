@@ -38,7 +38,7 @@ const Hero = () => {
               <Play className="w-5 h-5 mr-2" />
               Start Creating
             </Button>
-            <Button variant="outline" size="lg">
+            <Button variant="modern" size="lg">
               Watch Demo
             </Button>
           </div>
