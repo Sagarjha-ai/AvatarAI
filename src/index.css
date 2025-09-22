@@ -7,36 +7,36 @@
 @layer base {
   :root {
     /* Brand Colors - Professional SaaS Theme */
-    --background: 210 11% 8%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 100%;
+    --foreground: 210 11% 8%;
     
     /* Surface Colors */
-    --card: 210 11% 10%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 11% 8%;
     
-    --popover: 210 11% 10%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 8%;
     
     /* Interactive States */
     --primary: 262 83% 58%;
-    --primary-foreground: 210 40% 98%;
+    --primary-foreground: 0 0% 100%;
     
-    --secondary: 210 11% 15%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 11% 96%;
+    --secondary-foreground: 210 11% 8%;
     
     /* Accent & Highlights */
     --accent: 262 83% 58%;
-    --accent-foreground: 210 40% 98%;
+    --accent-foreground: 0 0% 100%;
     
-    --muted: 210 11% 15%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 210 11% 96%;
+    --muted-foreground: 215 20.2% 35%;
     
     /* Functional Colors */
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
     
-    --border: 210 11% 20%;
-    --input: 210 11% 15%;
+    --border: 210 11% 90%;
+    --input: 210 11% 96%;
     --ring: 262 83% 58%;
     
     /* Design System Extensions */
