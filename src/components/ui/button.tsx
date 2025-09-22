@@ -9,15 +9,16 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow hover:shadow-glow font-medium",
-        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border-2 border-primary bg-background text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-primary text-white hover:opacity-90 shadow-glow font-semibold border-0",
-        gradient: "bg-gradient-primary text-white hover:opacity-90 transform hover:scale-105 shadow-lg font-medium",
-        upload: "bg-white text-primary border-2 border-primary shadow-lg hover:bg-primary hover:text-white transition-all duration-300 font-medium",
+        default: "bg-gradient-primary text-white hover:shadow-xl hover:scale-105 transition-all duration-300 font-medium border-0 shadow-lg",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-lg",
+        outline: "bg-white border-2 border-gray-200 text-gray-700 hover:border-primary hover:text-primary hover:shadow-lg transition-all duration-300 font-medium",
+        secondary: "bg-gray-50 text-gray-700 hover:bg-gray-100 hover:shadow-md transition-all duration-200 border border-gray-200",
+        ghost: "text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-all duration-200",
+        link: "text-primary underline-offset-4 hover:underline font-medium",
+        hero: "bg-gradient-primary text-white hover:shadow-xl hover:scale-105 transition-all duration-300 font-semibold border-0 shadow-lg",
+        gradient: "bg-gradient-primary text-white hover:shadow-xl hover:scale-105 transition-all duration-300 font-medium shadow-lg",
+        upload: "bg-slate-700 text-white hover:bg-slate-600 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 font-medium border-0",
+        modern: "bg-white text-gray-700 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-gray-100 font-medium",
       },
       size: {
         default: "h-10 px-4 py-2",
